@@ -6,7 +6,7 @@ subtitle: Robotics · Whole-body control · Reinforcement learning
 profile:
   align: right
   image: false
-selected_papers: true
+selected_papers: false
 social: true
 announcements:
   enabled: false
@@ -14,35 +14,28 @@ latest_posts:
   enabled: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+
 I am **Xun Kyrie Yang**, a visiting student in the [ARG](https://articulated.robots.ox.ac.uk/) at the [Oxford Robotics Institute](https://ori.ox.ac.uk/), supervised by [Prof. Ioannis Havoutis](https://ihavoutis.github.io/).
 
 I completed my **M.Phil. in Artificial Intelligence** at [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/) in October 2026, supervised by [Prof. Junwei Liang](https://junweiliang.me). Previously, I received my B.Eng. in Automation from Harbin Institute of Technology, Shenzhen.
 
 My research focuses on **humanoid robots**, **whole-body control**, and **reinforcement learning**. I am interested in combining perception, motion imitation, and learned world models to enable agile physical interaction and collaborative loco-manipulation.
 
-I am currently working on **[CatchItMan](https://play.kyrielab.com)**, a perception-driven framework for humanoid ball catching, and **[MultiMimic]({{ '/projects/multimimic/' | relative_url }})**, which explores coordinated multi-humanoid loco-manipulation. My previous work includes humanoid tennis, safe locomotion, autonomous loco-manipulation, and whole-body teleoperation.
+I am currently working on **[SwiftCatch](https://play.kyrielab.com)**, an egocentric framework for agile whole-body ball catching on humanoid robots, and **[MultiMimic]({{ '/projects/multimimic/' | relative_url }})**, which explores coordinated multi-humanoid loco-manipulation. My previous work includes humanoid tennis, safe locomotion, autonomous loco-manipulation, and whole-body teleoperation.
 
 ### Research in action
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 16px; margin: 20px 0 28px;">
-  <a href="https://play.kyrielab.com" style="display: block; color: inherit; text-decoration: none;">
-    <figure style="margin: 0;">
-      <img src="{{ '/assets/img/research/catchitman.png' | relative_url }}" alt="CatchItMan interactive simulation showing a G1 humanoid, a ball, and its predicted flight path" width="970" height="555" loading="eager" style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 8px;">
-      <figcaption style="padding-top: 10px; line-height: 1.5;"><strong>CatchItMan ↗</strong><br><small>Humanoid ball catching · Try the interactive demo</small></figcaption>
-    </figure>
+<div class="research-feature">
+  <a href="https://play.kyrielab.com" aria-label="Open the SwiftCatch project homepage">
+    <img src="{{ '/assets/img/research/swiftcatch.png' | relative_url }}" alt="SwiftCatch humanoid reaching to catch a ball, with the egocentric depth-camera view inset" width="783" height="480" loading="eager">
   </a>
-  <a href="https://hazintihoa.github.io/ATHLETE/" style="display: block; color: inherit; text-decoration: none;">
-    <figure style="margin: 0;">
-      <img src="{{ '/assets/img/research/athlete.jpg' | relative_url }}" alt="ATHLETE humanoid robot holding a tennis racket during a real-world rally" width="1920" height="1080" loading="lazy" style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 8px;">
-      <figcaption style="padding-top: 10px; line-height: 1.5;"><strong>ATHLETE ↗</strong><br><small>Reactive humanoid tennis · Real-world experiments</small></figcaption>
-    </figure>
-  </a>
-  <a href="https://gsplayground.github.io/" style="display: block; color: inherit; text-decoration: none;">
-    <figure style="margin: 0;">
-      <img src="{{ '/assets/img/research/gsplayground.png' | relative_url }}" alt="GS-Playground simulator showcasing humanoid, quadruped, and wheeled robot embodiments" width="1672" height="941" loading="lazy" style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 8px;">
-      <figcaption style="padding-top: 10px; line-height: 1.5;"><strong>GS-Playground ↗</strong><br><small>Photorealistic simulation · Vision-informed robot learning</small></figcaption>
-    </figure>
-  </a>
+  <div>
+    <h4><a href="https://play.kyrielab.com">SwiftCatch ↗</a></h4>
+    <p><strong>Egocentric Agile Whole-Body Ball Catching for Humanoid Robots</strong></p>
+    <p>Depth-based perception and agile whole-body control for dynamic humanoid ball catching.</p>
+    <a href="https://play.kyrielab.com">Project homepage & interactive demo ↗</a>
+  </div>
 </div>
 
 ### Research interests
@@ -54,3 +47,9 @@ I am currently working on **[CatchItMan](https://play.kyrielab.com)**, a percept
 I also share [Isaac Lab tutorials on Bilibili](https://space.bilibili.com/2068165497), with 3k subscribers and over 100k views.
 
 [Download my CV]({{ '/assets/pdf/CV1101.pdf' | relative_url }}) · [Research demos](https://kyrieyoung.notion.site/demos) · [Email](mailto:xyang162@connect.hkust-gz.edu.cn)
+
+## [publications]({{ '/publications/' | relative_url }})
+
+<div class="publications">
+{% bibliography %}
+</div>

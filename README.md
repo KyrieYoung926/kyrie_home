@@ -3,7 +3,7 @@
 Personal academic website built with [al-folio](https://github.com/alshedivat/al-folio) and Jekyll.
 
 - Website: **https://me.kyrielab.com**
-- CatchItMan: **https://play.kyrielab.com**
+- SwiftCatch: **https://play.kyrielab.com**
 - Source: **https://github.com/KyrieYoung926/kyrie_home**
 
 This repository contains the current homepage, five publications, four research projects, research images, and downloadable PDF CV. Theme layouts and assets are supplied by the pinned `al_folio_core` gem.

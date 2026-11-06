@@ -29,7 +29,7 @@ B.Eng. in Automation, School of Mechanical Engineering and Automation · Septemb
 
 ## Research experience
 
-**[CatchItMan: Perception-Driven Humanoid Bimanual Catching](https://play.kyrielab.com)** · Ongoing
+**[SwiftCatch: Egocentric Agile Whole-Body Ball Catching for Humanoid Robots](https://play.kyrielab.com)** · Ongoing
 
 - Developing a whole-body RL framework for dynamic single-handed and bimanual ball catching on humanoid robots.
 - Integrating depth-based perception / MoCap, ball trajectory prediction, policy distillation, and sim-to-real transfer.

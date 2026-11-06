@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+<link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
 
 <!-- Bibsearch Feature -->
 
