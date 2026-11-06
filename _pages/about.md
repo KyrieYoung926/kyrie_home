@@ -5,7 +5,8 @@ permalink: /
 subtitle: Robotics · Whole-body control · Reinforcement learning
 profile:
   align: right
-  image: false
+  image: me.jpg
+  image_circular: false
 selected_papers: false
 social: true
 announcements:
@@ -24,6 +25,13 @@ My research focuses on **humanoid robots**, **whole-body control**, and **reinfo
 
 I am currently working on **[SwiftCatch](https://play.kyrielab.com)**, an egocentric framework for agile whole-body ball catching on humanoid robots, and **[MultiMimic]({{ '/projects/multimimic/' | relative_url }})**, which explores coordinated multi-humanoid loco-manipulation. My previous work includes humanoid tennis, safe locomotion, autonomous loco-manipulation, and whole-body teleoperation.
 
+### Research interests
+
+- Perception-driven whole-body control and dynamic humanoid interaction
+- Reinforcement learning, motion imitation, and sim-to-real transfer
+
+I also share [Isaac Lab tutorials on Bilibili](https://space.bilibili.com/2068165497), with 3k subscribers and over 100k views.
+
 ### Research in action
 
 <div class="research-feature">
@@ -37,16 +45,6 @@ I am currently working on **[SwiftCatch](https://play.kyrielab.com)**, an egocen
     <a href="https://play.kyrielab.com">Project homepage & interactive demo ↗</a>
   </div>
 </div>
-
-### Research interests
-
-- Perception-driven whole-body control and dynamic humanoid interaction
-- Reinforcement learning, motion imitation, and sim-to-real transfer
-- Multi-robot collaboration and world models for loco-manipulation
-
-I also share [Isaac Lab tutorials on Bilibili](https://space.bilibili.com/2068165497), with 3k subscribers and over 100k views.
-
-[Download my CV]({{ '/assets/pdf/CV1101.pdf' | relative_url }}) · [Research demos](https://kyrieyoung.notion.site/demos) · [Email](mailto:xyang162@connect.hkust-gz.edu.cn)
 
 ## [publications]({{ '/publications/' | relative_url }})
 

@@ -11,3 +11,5 @@ Publication author names and the supplied PDF remain as originally published. Th
 - `assets/img/research/omni-perception.jpeg`: Omni-Perception method figure, https://acodedog.github.io/OmniPerceptionPages/static/images/pipeline.jpeg.
 
 Publication thumbnail copies are kept in `assets/img/publication_preview/` for al-folio's native bibliography renderer. ATHLETE is displayed at 2× zoom using CSS, centered on the robot; the original image is unchanged. One Motion uses an original, text-only SVG title card (`assets/img/publication_preview/one-motion.svg`) as requested by the site owner; it is not an experiment image.
+
+- `assets/img/me.jpg`: original portrait supplied by the site owner for the homepage, 2026-11-06.

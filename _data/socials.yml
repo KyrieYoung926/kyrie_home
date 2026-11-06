@@ -4,3 +4,7 @@ bilibili:
   logo: fa-brands fa-bilibili
   title: Bilibili
   url: https://space.bilibili.com/2068165497
+research_demos:
+  logo: fa-solid fa-flask
+  title: Research demos
+  url: https://kyrieyoung.notion.site/demos
