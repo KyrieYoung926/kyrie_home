@@ -1,0 +1,50 @@
+name: Build site and publish deploy branch
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: academic-site-deploy
+  cancel-in-progress: false
+
+jobs:
+  build-and-publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    env:
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
+      RUBYOPT: -EUTF-8:UTF-8
+      JEKYLL_ENV: production
+      BUNDLE_FROZEN: "true"
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Node.js for JavaScript minification
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+
+      - name: Set up Ruby and install locked dependencies
+        uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1
+        with:
+          bundler: "4.0.6"
+          bundler-cache: true
+
+      - name: Build Jekyll with explicit UTF-8 encoding
+        run: bash bin/build-site.sh
+
+      - name: Test deploy branch publication
+        run: bash bin/test-publish.sh
+
+      - name: Publish generated files to deploy
+        run: bash bin/publish-deploy.sh _site
