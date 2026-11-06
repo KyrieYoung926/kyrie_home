@@ -1,0 +1,20 @@
+# Generated Jekyll output and dependency caches
+_site/
+vendor/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.tweet-cache/
+node_modules/
+
+# Machine-local runtimes and editor state
+.runtime/
+.venv/
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
+*.log
+al-folio-upgrade-report.md
