@@ -12,9 +12,9 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url | bust_file_cache }}">
 
-<aside class="about-profile" aria-label="Portrait and contact links">
+<aside class="profile float-right about-profile" aria-label="Portrait and contact links">
   <figure class="portrait-frame">
     <img src="{{ '/assets/img/me.jpg' | relative_url }}" alt="Xun Kyrie Yang" width="824" height="858" loading="eager">
   </figure>

@@ -79,7 +79,7 @@
 }
 .portrait-frame {
   margin: 0;
-  aspect-ratio: 1;
+  aspect-ratio: 824 / 858;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -95,16 +95,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-  margin-top: 10px;
+  gap: 12px;
+  margin-top: 12px;
 }
 .profile-icons a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 34px;
-  height: 34px;
-  font-size: 22px;
+  width: 44px;
+  height: 44px;
+  font-size: 32px;
   line-height: 1;
   color: var(--global-text-color);
 }

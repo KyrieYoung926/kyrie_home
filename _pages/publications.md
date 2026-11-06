@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url | bust_file_cache }}">
 
 <p class="publication-note">† Equal contribution (co-first authors).</p>
 
