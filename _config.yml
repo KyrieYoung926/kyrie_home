@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Xun
 middle_name: Kyrie
 last_name: Yang
-contact_note: >
-  Feel free to get in touch about robotics and research collaborations.
+contact_note: ""
 description: >
   Xun Kyrie Yang — robotics, whole-body control, and reinforcement learning.
 footer_text: >

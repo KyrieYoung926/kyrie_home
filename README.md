@@ -59,7 +59,7 @@ See [deployment details and encoding investigation](docs/DEPLOYMENT.md) for the 
 | `_config.yml`              | 姓名、域名及功能设置                               |
 | `docs/IMAGE_SOURCES.md`    | 项目图片来源                                       |
 
-部分原始论文和 PDF 中的署名仍使用 Xun Yang；网站显示名为 Xun Kyrie Yang。One Motion 的完整作者名单已按本人提供的信息补全，并保留第一作者的星号标记。
+部分原始论文和 PDF 中的署名仍使用 Xun Yang；网站显示名为 Xun Kyrie Yang。One Motion 的完整作者名单已按本人提供的信息补全；不使用星号标记，共一作者统一使用 †。
 
 ## 本地预览
 

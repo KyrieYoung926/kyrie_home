@@ -3,7 +3,7 @@ layout: page
 title: MultiMimic
 description: Multi-robot collaborative loco-manipulation via a differentiable world model.
 importance: 2
-category: research
+category: unlisted
 ---
 
 ## Multi-Robot Collaborative Loco-Manipulation via Differentiable World Model
