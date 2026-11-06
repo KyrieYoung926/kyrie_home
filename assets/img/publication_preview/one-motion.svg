@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-labelledby="title desc">
+  <title id="title">One Motion, Diverse Strokes</title>
+  <desc id="desc">Title card for the vision-guided humanoid tennis paper.</desc>
+  <rect width="400" height="250" rx="12" fill="#f4f3f7"/>
+  <rect x="172" y="47" width="56" height="4" rx="2" fill="#b509ac"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="200" y="107" font-size="28" font-weight="700" fill="#252332">ONE MOTION</text>
+    <text x="200" y="144" font-size="23" font-weight="600" fill="#252332">DIVERSE STROKES</text>
+    <text x="200" y="191" font-size="15" fill="#655e75">Vision-guided humanoid tennis</text>
+  </g>
+</svg>
